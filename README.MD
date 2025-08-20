@@ -66,10 +66,13 @@ npm install
 cp .env.example .env
 # Edit .env with your CoinGecko API key and configuration
 ```
-
-4. Start the server:
+4. Run Build:
 ```bash
-npm start
+npm run build
+```
+5. Start the server:
+```bash
+npm run start
 ```
 
 The server will be available at `http://localhost:3080/mcp`
